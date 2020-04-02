@@ -2,5 +2,5 @@
 animation of rocket in css (: 
 
 <p align="center"><img src="img.png" alt="" width="401" height="366"></p>
-<h1 align="center">(its moving in rl)</h1>
+<div align="center" font-size=20px>(its moving in rl)</div>
 
