@@ -1,0 +1,171 @@
+body{
+    background-color: #4b4c6b;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: rotate(30deg);
+    }
+
+    100%{
+        transform: rotate(-30deg);
+    }
+
+}
+@keyframes animate_stars {
+
+    0%{
+        opacity: 0.2;
+    }
+
+    100%{
+        opacity:1;
+    }
+
+}
+.container{
+
+    height: 500px;
+    width: 500px;
+    border:4px solid #babbce;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.rocket{
+    height: 130px;
+    width: 80px;
+    position: relative;
+    background-color: #7ab2ff;
+    margin: auto;
+    top: 180px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 20%;
+    animation: alternate  3s both infinite ease-in-out animate;
+
+}
+
+.circle{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: -21px;
+
+    background-color: #7ab2ff;
+}
+
+.window{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    top: -125px;
+    width: 40px;
+    background-color: #273649;
+    border-radius: 50%;
+}
+
+.window2{
+    position: relative;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    top: -80px;
+    background-color: #b4b6b9;
+    border-radius: 50%;
+
+}
+.light{
+    position: relative;
+    height: 50px;
+
+    margin-left: 5px;
+    width: 6px;
+    top: -130px;
+    background-color: #bbcfef;
+    border-radius: 8px;
+
+}
+
+.bottom{
+    position: relative;
+    height: 30px;
+    margin-left: -10px;
+    width: 100px;
+    top: -250px;
+    background-color:  #babbce;
+    border-radius: 8px;
+}
+
+.fire{
+    position: relative;
+    height: 60px;
+    margin-left: 16px;
+    width: 17px;
+    top: -120px;
+    background-color: #e5615a;
+    border-radius: 9px;
+}
+.fire2{
+    position: relative;
+    height: 30px;
+    margin-left: 30px;
+    width: 12px;
+    top: -90px;
+    background-color: #ffc6c3;
+    border-radius: 9px;
+}
+.fire3{
+    position: relative;
+    height: 50px;
+    margin-left: 45px;
+    width: 15px;
+    top: -180px;
+    background-color: #d03f28;
+    border-radius: 20px;
+}
+
+.star1{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+    top: -21px;
+    background-color: #f7f7f7;
+    animation: alternate  2s both infinite ease-in-out animate_stars;
+}
+
+.star2{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left: 420px;
+    border-radius: 50%;
+    top: -80px;
+    background-color: #f7f7f7;
+    animation: alternate  3s both infinite ease-in-out animate_stars;
+}
+
+.star3{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left: 380px;
+    border-radius: 50%;
+    top: 190px;
+    background-color: #f7f7f7;
+    animation: alternate  1s both infinite ease-in-out animate_stars;
+}
